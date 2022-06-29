@@ -7,7 +7,7 @@ public class Main {
         System.out.println(getLargest(integerList));
     }
 
-    static Integer getLargest(List<Integer> list) {
+    static int getLargest(List<Integer> list) {
         int largest = list.get(0);
         for (int i : list) {
             if (i > largest) {
